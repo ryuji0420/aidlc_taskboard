@@ -65,6 +65,61 @@ Question 6 — Property-Based Testing Extension
 
 ---
 
+## User Stories — 計画質問への回答
+**Timestamp**: 2026-04-15T17:00:00Z  
+**User Input**: "Question 1 — 主なペルソナ
+→A
+
+Question 2 — ストーリーの分割方針
+→E
+具体例を提示願います。
+
+Question 3 — 受け入れ基準の記述言語
+→C
+
+Question 4 — ストーリーの粒度
+→A
+
+Question 5 — Epic の使用
+→B"  
+**AI Response**: `story-generation-plan.md` に回答を反映。Question 2 について Feature / Journey / ハイブリッドの具体例表と、Q4・Q5 と整合する確定方針（Epic「MVP タスクボード」＋ Feature ベース細分化）を追記。計画承認ゲートは未完了のまま。  
+**Context**: INCEPTION / User Stories Part 1
+
+---
+
+## User Stories — Question 2 パターン C の確定
+**Timestamp**: 2026-04-15T18:00:00Z  
+**User Input**: "Question 2 補足 — 分割方針の具体例（TaskBoard Mini 向け）
+→C"  
+**AI Response**: 分割方針を **パターン C（ハイブリッド）** と確定。`story-generation-plan.md` を更新し Part 2 を実行。`personas.md`・`stories.md` を生成（Epic E-MVP、TB-01〜TB-07）。`aidlc-state.md` で User Stories を完了。  
+**Context**: INCEPTION / User Stories Part 2
+
+---
+
+## User Stories — 生成物レビュー用プロンプト
+**Timestamp**: 2026-04-15T18:00:00Z  
+**User Input**: （未回答 — `stories.md` / `personas.md` のレビューと承認を待つ）  
+**AI Response**: 下記「User Stories Complete」メッセージ（REVIEW REQUIRED）を提示。  
+**Context**: INCEPTION / User Stories 完了（レビュー待ち）
+
+---
+
+## User Stories — 承認
+**Timestamp**: 2026-04-15T19:00:00Z  
+**User Input**: "ユーザーストーリーを承認します。"  
+**AI Response**: 承認を記録。Workflow Planning を実施し `aidlc-docs/inception/plans/execution-plan.md` を作成（Mermaid ワークフロー、フェーズ判定、リスク）。`aidlc-state.md` を更新。次は実行計画のレビューと承認。  
+**Context**: INCEPTION / User Stories → Workflow Planning
+
+---
+
+## Workflow Planning — 実行計画レビュー用プロンプト
+**Timestamp**: 2026-04-15T19:00:00Z  
+**User Input**: （未回答 — `execution-plan.md` の承認を待つ）  
+**AI Response**: 下記「Workflow Planning Complete」メッセージを提示。  
+**Context**: INCEPTION / Workflow Planning
+
+---
+
 ## Requirements Analysis — 承認プロンプト
 **Timestamp**: 2026-04-15T15:00:00Z  
 **User Input**: （未回答 — 要件レビューと承認を待つ）  

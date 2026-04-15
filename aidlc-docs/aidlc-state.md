@@ -4,7 +4,11 @@
 - **Project Name**: TaskBoard Mini（未着手・変更可）
 - **Project Type**: Greenfield
 - **Start Date**: 2026-04-15T00:00:00Z
-- **Current Stage**: INCEPTION — User Stories（`story-generation-plan.md` 回答・計画承認待ち）
+- **Current Stage**: INCEPTION — Workflow Planning（`execution-plan.md` 承認待ち）→ 次は **Application Design**（承認後）
+
+## Execution Plan Summary
+- **実行予定（推奨）**: Application Design、Functional Design、Code Generation、Build and Test  
+- **スキップ（推奨）**: Reverse Engineering、Units Generation、NFR Requirements/Design、Infrastructure Design  
 
 ## Workspace State
 - **Existing Code**: No
@@ -30,8 +34,8 @@
 - [x] Workspace Detection
 - [ ] Reverse Engineering（Greenfield — スキップ）
 - [x] Requirements Analysis
-- [ ] User Stories
-- [ ] Workflow Planning
+- [x] User Stories
+- [ ] Workflow Planning（`execution-plan.md` 作成済み — **ユーザー承認で完了**）
 - [ ] Application Design
 - [ ] Units Generation
 
