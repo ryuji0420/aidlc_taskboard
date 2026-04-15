@@ -3,8 +3,9 @@
 ## Project Information
 - **Project Name**: TaskBoard Mini（未着手・変更可）
 - **Project Type**: Greenfield
+- **Lifecycle Phase**: CONSTRUCTION（Functional Design レビュー中）
 - **Start Date**: 2026-04-15T00:00:00Z
-- **Current Stage**: INCEPTION — Workflow Planning（`execution-plan.md` 承認待ち）→ 次は **Application Design**（承認後）
+- **Current Stage**: CONSTRUCTION — Functional Design（`taskboard-web` 成果物レビュー待ち）→ 承認後は **Code Generation**（NFR / Infrastructure は実行計画どおり SKIP）
 
 ## Execution Plan Summary
 - **実行予定（推奨）**: Application Design、Functional Design、Code Generation、Build and Test  
@@ -32,15 +33,20 @@
 ## Stage Progress
 ### INCEPTION PHASE
 - [x] Workspace Detection
-- [ ] Reverse Engineering（Greenfield — スキップ）
+- [x] Reverse Engineering（Greenfield — スキップ）
 - [x] Requirements Analysis
 - [x] User Stories
-- [ ] Workflow Planning（`execution-plan.md` 作成済み — **ユーザー承認で完了**）
-- [ ] Application Design
-- [ ] Units Generation
+- [x] Workflow Planning
+- [x] Application Design
+- [ ] Units Generation（実行計画どおり SKIP）
 
 ### CONSTRUCTION PHASE
-- （Workflow Planning 完了後に更新）
+- [ ] Functional Design（成果物作成済み — **ユーザー承認で完了**）
+- [ ] NFR Requirements（SKIP）
+- [ ] NFR Design（SKIP）
+- [ ] Infrastructure Design（SKIP）
+- [ ] Code Generation（未着手）
+- [ ] Build and Test（未着手）
 
 ### OPERATIONS PHASE
 - （プレースホルダ）

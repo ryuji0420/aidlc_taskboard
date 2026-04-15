@@ -133,7 +133,7 @@ flowchart TD
 - [x] Reverse Engineering（SKIP — Greenfield）
 - [x] Requirements Analysis（COMPLETED）
 - [x] User Stories（COMPLETED）
-- [x] Workflow Planning（本計画の作成）
+- [x] Workflow Planning（本計画の作成・**ユーザー承認済み**）
 - [ ] Application Design — **EXECUTE**（新規 UI・永続化・コンポーネント境界）
 - [ ] Units Generation — **SKIP**（単一フロントユニット）
 

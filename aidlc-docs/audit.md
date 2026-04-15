@@ -120,6 +120,38 @@ Question 5 — Epic の使用
 
 ---
 
+## Workflow Planning — 実行計画の承認
+**Timestamp**: 2026-04-15T20:00:00Z  
+**User Input**: "実行計画を承認します。"  
+**AI Response**: 実行計画を承認済みと記録。`aidlc-state.md` で Workflow Planning を完了。Application Design を実施し `application-design-plan.md` および `application-design/` 配下一括成果物を作成。次は Application Design のレビューと承認。  
+**Context**: INCEPTION / Workflow Planning → Application Design
+
+---
+
+## Application Design — 承認プロンプト
+**Timestamp**: 2026-04-15T20:00:00Z  
+**User Input**: （未回答 — `application-design/` のレビューと承認を待つ）  
+**AI Response**: 下記「Application Design Complete」メッセージを提示。  
+**Context**: INCEPTION / Application Design
+
+---
+
+## Application Design — 承認
+**Timestamp**: 2026-04-15T21:00:00Z  
+**User Input**: "Application Design について承認するので続行願います。"  
+**AI Response**: Application Design を承認済みと記録。`unit-of-work.md` / `unit-of-work-story-map.md` を補完（Units Generation SKIP 前提）。`construction/taskboard-web/functional-design/` にビジネスルール・ドメイン・フロント補足・PBT Testable Properties を含む成果物を作成。`aidlc-state.md` を CONSTRUCTION に更新。  
+**Context**: INCEPTION / Application Design → CONSTRUCTION / Functional Design
+
+---
+
+## Functional Design — 承認プロンプト
+**Timestamp**: 2026-04-15T21:00:00Z  
+**User Input**: （未回答 — `taskboard-web` の Functional Design 承認を待つ）  
+**AI Response**: 下記「Functional Design Complete」メッセージを提示。  
+**Context**: CONSTRUCTION / Functional Design
+
+---
+
 ## Requirements Analysis — 承認プロンプト
 **Timestamp**: 2026-04-15T15:00:00Z  
 **User Input**: （未回答 — 要件レビューと承認を待つ）  
