@@ -5,7 +5,7 @@
 - **Project Type**: Greenfield
 - **Lifecycle Phase**: CONSTRUCTION（Functional Design レビュー中）
 - **Start Date**: 2026-04-15T00:00:00Z
-- **Current Stage**: CONSTRUCTION — Functional Design（`taskboard-web` 成果物レビュー待ち）→ 承認後は **Code Generation**（NFR / Infrastructure は実行計画どおり SKIP）
+- **Current Stage**: CONSTRUCTION — Code Generation 完了 → 次は **Build and Test**（手順整備・最終確認）
 
 ## Execution Plan Summary
 - **実行予定（推奨）**: Application Design、Functional Design、Code Generation、Build and Test  
@@ -13,8 +13,8 @@
 
 ## Workspace State
 - **Existing Code**: No
-- **Programming Languages**: （未導入）
-- **Build System**: （未導入）
+- **Programming Languages**: TypeScript, Vue SFC
+- **Build System**: Vite 6, npm scripts（`dev` / `build` / `test`）
 - **Project Structure**: Empty / ドキュメントのみ（aidlc-docs）
 - **Reverse Engineering Needed**: No
 - **Workspace Root**: /Users/user/Desktop/workspace/ai_labo/specification_driven_tools/aidlc_taskboard
@@ -41,12 +41,12 @@
 - [ ] Units Generation（実行計画どおり SKIP）
 
 ### CONSTRUCTION PHASE
-- [ ] Functional Design（成果物作成済み — **ユーザー承認で完了**）
+- [x] Functional Design
 - [ ] NFR Requirements（SKIP）
 - [ ] NFR Design（SKIP）
 - [ ] Infrastructure Design（SKIP）
-- [ ] Code Generation（未着手）
-- [ ] Build and Test（未着手）
+- [x] Code Generation（taskboard-web）
+- [ ] Build and Test（手順書作成済み — **承認待ち**）
 
 ### OPERATIONS PHASE
 - （プレースホルダ）

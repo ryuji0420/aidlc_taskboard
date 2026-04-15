@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/vite-env.d.ts","./src/domain/board.test.ts","./src/domain/board.ts","./src/services/repository.ts","./src/stores/board.ts","./src/app.vue","./src/components/boardview.vue","./src/components/cardcreateform.vue","./src/components/carditem.vue","./src/components/columnview.vue"],"version":"5.7.3"}

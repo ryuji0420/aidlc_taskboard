@@ -152,6 +152,29 @@ Question 5 — Epic の使用
 
 ---
 
+## Functional Design 承認・Code Generation 実行
+**Timestamp**: 2026-04-15T22:00:00Z  
+**User Input**: "Functional Design を承認するのでCode Generationへ進んでください。"  
+**AI Response**: Functional Design を承認済みと処理。ワークスペースルートに Vite+Vue+TS+Pinia を生成。`src/domain/board.ts`、Vitest+fast-check、Repository、Pinia、Vue コンポーネント、`data-testid`。`aidlc-docs/construction/build-and-test/*` と `implementation-summary.md` を作成。`npm run test` / `npm run build` 成功。  
+**Context**: CONSTRUCTION / Code Generation → Build and Test
+
+---
+
+## Code Generation — 承認プロンプト
+**Timestamp**: 2026-04-15T22:00:00Z  
+**User Input**: （未回答 — 生成コードのレビューと承認を待つ）  
+**AI Response**: 下記「Code Generation Complete」メッセージを提示。  
+**Context**: CONSTRUCTION / Code Generation
+
+---
+
+## Build and Test — 手順配置
+**Timestamp**: 2026-04-15T22:00:00Z  
+**AI Response**: `aidlc-docs/construction/build-and-test/` にビルド・単体・結合・性能・サマリーを配置。  
+**Context**: CONSTRUCTION / Build and Test
+
+---
+
 ## Requirements Analysis — 承認プロンプト
 **Timestamp**: 2026-04-15T15:00:00Z  
 **User Input**: （未回答 — 要件レビューと承認を待つ）  
