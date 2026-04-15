@@ -4,7 +4,7 @@
 - **Project Name**: TaskBoard Mini（未着手・変更可）
 - **Project Type**: Greenfield
 - **Start Date**: 2026-04-15T00:00:00Z
-- **Current Stage**: （AI-DLC ワークフロー開始後に更新）
+- **Current Stage**: INCEPTION — User Stories（`story-generation-plan.md` 回答・計画承認待ち）
 
 ## Workspace State
 - **Existing Code**: No
@@ -22,14 +22,14 @@
 ## Extension Configuration
 | Extension | Enabled | Decided At |
 |---|---|---|
-| Security Baseline | （要件分析で決定） | — |
-| Property-Based Testing | （要件分析で決定） | — |
+| Security Baseline | No | Requirements Analysis（Q5: B） |
+| Property-Based Testing | Yes（フル適用） | Requirements Analysis（Q6 再選択: A） |
 
 ## Stage Progress
 ### INCEPTION PHASE
-- [ ] Workspace Detection
-- [ ] Reverse Engineering（Greenfield の場合はスキップ可）
-- [ ] Requirements Analysis
+- [x] Workspace Detection
+- [ ] Reverse Engineering（Greenfield — スキップ）
+- [x] Requirements Analysis
 - [ ] User Stories
 - [ ] Workflow Planning
 - [ ] Application Design
